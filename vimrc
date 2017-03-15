@@ -5,10 +5,12 @@ source ~/.vim/plugins.vimrc
 " General settings
 filetype plugin indent on
 set smarttab
-set autoindent
+set smartindent
 set mouse=a
 set backspace=2
 set backupdir=~/.vimbackup
+set wildmode=longest,list,full
+set wildmenu
 
 " Appearance
 syntax on

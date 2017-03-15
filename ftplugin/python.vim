@@ -1,6 +1,6 @@
 " Python intendation
-set tabstop=8
-set expandtab
+set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set expandtab
 set textwidth=79
