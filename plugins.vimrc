@@ -22,5 +22,6 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'vim-latex/vim-latex'
 
 call vundle#end()
