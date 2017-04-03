@@ -20,5 +20,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'nanotech/jellybeans.vim'
+Plugin 'ntpeters/vim-better-whitespace'
 
 call vundle#end()
