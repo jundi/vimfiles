@@ -46,7 +46,7 @@ map ä "+
 map - <leader>c<space>
 map C :w<cr>,ll
 
-" Fuzzy search ignored files 
+" Fuzzy search ignored files
 set wildignore+=*.pyc,*/build/lib/*,**/tmp/*,*.so,*.swp,*.zip,**/bower_components/*,**/node_modules/*
 
 " Syntastic settings
@@ -54,3 +54,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" Enable indent quide on startup
+let g:indent_guides_enable_on_vim_startup = 1
