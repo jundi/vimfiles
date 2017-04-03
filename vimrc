@@ -11,6 +11,8 @@ set backspace=2
 set backupdir=~/.vimbackup
 set wildmode=longest,list,full
 set wildmenu
+set modeline
+set modelines=5
 
 " Appearance
 syntax on
@@ -19,7 +21,6 @@ set bg=dark
 set nu
 set ls=2
 set showcmd
-set modelines=1
 
 " Statusline
 set laststatus=2
