@@ -1,4 +1,5 @@
 "vim: set ft=vimrc:
+
 " Plugins
 source ~/.vim/plugins.vimrc
 
@@ -16,8 +17,8 @@ set modelines=5
 
 " Appearance
 syntax on
-colorscheme koehler
-set bg=dark
+colorscheme jellybeans
+let g:airline_theme='dark'
 set nu
 set ls=2
 set showcmd
