@@ -14,6 +14,7 @@ set wildmode=longest,list,full
 set wildmenu
 set modeline
 set modelines=5
+set hlsearch
 
 " Appearance
 syntax on
