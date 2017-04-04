@@ -10,7 +10,13 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 2. Clone vimfiles:  
 ```
-git clone https://github.com/jundi/vimfiles.git ~/.vim  
+git clone https://github.com/jundi/vimfiles.git
+cp vimfiles/* ~/.vim/
+```
+
+3. Create directory for vim-backups:  
+```
+mkdir ~/.vimbackup/
 ```
 
 ### Neovim
