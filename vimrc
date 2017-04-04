@@ -24,22 +24,6 @@ set nu
 set ls=2
 set showcmd
 
-" Statusline
-"set laststatus=2
-"set statusline=%.24{getcwd()}
-"set statusline+=\ %.24f
-"set statusline+=\ [%{strlen(&fenc)?&fenc:'none'}, "file encoding
-"set statusline+=%{&ff}] "file format
-"set statusline+=%h      "help file flag
-"set statusline+=%m      "modified flag
-"set statusline+=%r      "read only flag
-"set statusline+=%y      "filetype
-"set statusline+=%{fugitive#statusline()} " Git branch
-"set statusline+=%=      "left/right separator
-"set statusline+=%c,     "cursor column
-"set statusline+=%l/%L   "cursor line/total lines
-"set statusline+=\ %P    "percent through file
-
 " Key mapping
 let mapleader=","
 map ö :
@@ -59,4 +43,5 @@ let g:syntastic_check_on_wq = 0
 " Enable indent quide on startup
 let g:indent_guides_enable_on_vim_startup = 1
 
+" Use powerline fonts
 let g:airline_powerline_fonts = 1
