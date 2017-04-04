@@ -23,5 +23,7 @@ Plugin 'nanotech/jellybeans.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'vim-latex/vim-latex'
+Plugin 'tpope/vim-surround'
+Plugin 'godlygeek/tabular'
 
 call vundle#end()
