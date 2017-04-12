@@ -25,5 +25,6 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'vim-latex/vim-latex'
 Plugin 'tpope/vim-surround'
 Plugin 'godlygeek/tabular'
+Plugin 'rkitover/vimpager'
 
 call vundle#end()
