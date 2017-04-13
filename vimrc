@@ -10,8 +10,9 @@ set smartindent
 set mouse=a
 set backspace=2
 set backupdir=~/.vimbackup
-set wildmode=longest,list,full
-set wildmenu
+set wildmode=longest:list
+set nowildmenu
+set nomore
 set modeline
 set modelines=5
 set hlsearch
@@ -30,6 +31,8 @@ map ö :
 map ä "+
 map - <leader>c<space>
 map C :w<cr>,ll
+cmap <S-Tab> <C-N>
+cmap <Esc><S-Tab> <C-P>
 
 " Fuzzy search ignored files
 set wildignore+=*.pyc,*/build/lib/*,**/tmp/*,*.so,*.swp,*.zip,**/bower_components/*,**/node_modules/*
