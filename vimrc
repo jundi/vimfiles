@@ -33,6 +33,8 @@ map - <leader>c<space>
 map C :w<cr>,ll
 cmap <S-Tab> <C-N>
 cmap <Esc><S-Tab> <C-P>
+map <C-l> :tabnext<cr>
+map <C-h> :tabprevious<cr>
 
 " Fuzzy search ignored files
 set wildignore+=*.pyc,*/build/lib/*,**/tmp/*,*.so,*.swp,*.zip,**/bower_components/*,**/node_modules/*
