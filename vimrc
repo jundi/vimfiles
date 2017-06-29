@@ -6,7 +6,7 @@ source ~/.vim/plugins.vimrc
 " General settings
 filetype plugin indent on
 set smarttab
-set smartindent
+"set smartindent
 set mouse=a
 set backspace=2
 set backupdir=~/.vimbackup
@@ -16,6 +16,7 @@ set nomore
 set modeline
 set modelines=5
 set hlsearch
+set colorcolumn=+1
 
 " Appearance
 syntax on
