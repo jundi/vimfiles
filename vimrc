@@ -53,3 +53,6 @@ let g:indent_guides_enable_on_vim_startup = 1
 
 " Use powerline fonts
 let g:airline_powerline_fonts = 1
+
+" supertab and vim-jedi configuration
+let g:SuperTabDefaultCompletionType = "context"
