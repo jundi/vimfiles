@@ -37,6 +37,7 @@ cmap <Esc><S-Tab> <C-P>
 map <C-l> :tabnext<cr>
 map <C-h> :tabprevious<cr>
 map <C-q> :quit!<cr>
+map <C-s> viwS
 
 " Fuzzy search ignored files
 set wildignore+=*.pyc,*/build/lib/*,**/tmp/*,*.so,*.swp,*.zip,**/bower_components/*,**/node_modules/*
