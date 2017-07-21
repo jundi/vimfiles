@@ -27,5 +27,6 @@ Plugin 'tpope/vim-surround'
 Plugin 'godlygeek/tabular'
 Plugin 'rkitover/vimpager'
 Plugin 'Vimjas/vim-python-pep8-indent'
+Plugin 'tell-k/vim-autopep8'
 
 call vundle#end()
