@@ -1,5 +1,18 @@
 # vimfiles
-VIM configuration files
+VIM configuration files that work with vim and neovim. Lots of Python-related plugins included, see plugins.vimrc for list of plugins.
+
+## Requirements
+   * pylint (for python style check)
+   * Neovim
+   * Neovim python-client
+
+### Install requirements on Centos7:
+Install Neovim RPM-repositories: https://github.com/neovim/neovim/wiki/Installing-Neovim
+
+Install RPMs
+```
+yum install  pylint neovim python34-neovim python2-neovim
+```
 
 ## Install
 
