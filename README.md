@@ -11,7 +11,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 2. Clone vimfiles:  
 ```
 git clone https://github.com/jundi/vimfiles.git
-cp vimfiles/* ~/.vim/
+cp -r vimfiles/* ~/.vim/
 ```
 
 3. Install plugins. Open vim and run command:
