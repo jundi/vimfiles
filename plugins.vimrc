@@ -29,5 +29,6 @@ Plugin 'rkitover/vimpager'
 Plugin 'Vimjas/vim-python-pep8-indent'
 Plugin 'tell-k/vim-autopep8'
 Plugin 'djoshea/vim-autoread'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()
