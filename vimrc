@@ -39,6 +39,10 @@ map <C-h> :tabprevious<cr>
 map <C-q> :quit!<cr>
 map <C-s> viwS
 map <C-i> v: StripWhitespace<cr>
+map <m-h> <C-W>h
+map <m-l> <C-W>l
+map <m-j> <C-W>j
+map <m-k> <C-W>k
 
 " Fuzzy search ignored files
 set wildignore+=*.pyc,*/build/lib/*,**/tmp/*,*.so,*.swp,*.zip,**/bower_components/*,**/node_modules/*
