@@ -32,6 +32,11 @@ cp -r vimfiles/* ~/.vim/
 :PluginInstall
 
 ```
+or run from commandline:
+```
+vim +PluginInstall +qall
+
+```
 
 4. Create directory for vim-backups:  
 ```
