@@ -17,6 +17,7 @@ set modeline
 set modelines=5
 set hlsearch
 set colorcolumn=+1
+set list
 
 " Appearance
 syntax on
