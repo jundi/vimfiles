@@ -30,5 +30,7 @@ Plugin 'Vimjas/vim-python-pep8-indent'
 Plugin 'tell-k/vim-autopep8'
 Plugin 'djoshea/vim-autoread'
 Plugin 'scrooloose/nerdtree'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'othree/javascript-libraries-syntax.vim'
 
 call vundle#end()
