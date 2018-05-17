@@ -67,3 +67,6 @@ let g:SuperTabDefaultCompletionType = "context"
 
 " Autopep
 let g:autopep8_disable_show_diff=1
+
+" javascript-libraries-syntax conf
+let g:used_javascript_libs = 'angularjs'
