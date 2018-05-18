@@ -71,3 +71,6 @@ let g:autopep8_disable_show_diff=1
 
 " javascript-libraries-syntax conf
 let g:used_javascript_libs = 'angularjs'
+
+" https://github.com/neovim/neovim/pull/7985
+autocmd VimResized * redraw!
