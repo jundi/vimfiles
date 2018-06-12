@@ -64,7 +64,7 @@ let g:airline_powerline_fonts = 1
 
 " supertab and vim-jedi configuration
 let g:SuperTabDefaultCompletionType = "context"
-let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
+"let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
 
 " Autopep
 let g:autopep8_disable_show_diff=1
