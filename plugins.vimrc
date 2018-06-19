@@ -32,5 +32,7 @@ Plugin 'djoshea/vim-autoread'
 Plugin 'scrooloose/nerdtree'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'kana/vim-textobj-line'
+Plugin 'kana/vim-textobj-user'
 
 call vundle#end()
