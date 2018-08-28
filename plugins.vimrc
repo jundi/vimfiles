@@ -34,5 +34,6 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'kana/vim-textobj-line'
 Plugin 'kana/vim-textobj-user'
 Plugin 'w0rp/ale'
+Plugin 'chase/vim-ansible-yaml'
 
 call vundle#end()
