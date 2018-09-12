@@ -21,6 +21,9 @@ set list
 
 " Appearance
 syntax on
+let g:jellybeans_overrides = {
+\    'background': { 'ctermbg': 'none', '256ctermbg': 'none' },
+\}
 colorscheme jellybeans
 let g:airline_theme='dark'
 set nu
