@@ -65,10 +65,6 @@ let g:indent_guides_enable_on_vim_startup = 1
 " Use powerline fonts
 let g:airline_powerline_fonts = 1
 
-" supertab and vim-jedi configuration
-let g:SuperTabDefaultCompletionType = "context"
-"let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
-
 " Autopep
 let g:autopep8_disable_show_diff=1
 
@@ -77,3 +73,8 @@ let g:used_javascript_libs = 'angularjs'
 
 " https://github.com/neovim/neovim/pull/7985
 autocmd VimResized * redraw!
+
+" completion
+let g:SuperTabDefaultCompletionType = "context"
+"let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
+let g:deoplete#enable_at_startup = 1
