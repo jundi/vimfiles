@@ -36,5 +36,6 @@ Plugin 'w0rp/ale'
 Plugin 'chase/vim-ansible-yaml'
 Plugin 'Shougo/deoplete.nvim'
 Plugin 'zchee/deoplete-jedi'
+Plugin 'heavenshell/vim-pydocstring'
 
 call vundle#end()
