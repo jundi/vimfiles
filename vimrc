@@ -47,8 +47,8 @@ map <m-h> <C-W>h
 map <m-l> <C-W>l
 map <m-j> <C-W>j
 map <m-k> <C-W>k
-map ln :lnext<cr>
-map lp :lprevious<cr>
+map <C-j> :lnext<cr>
+map <C-k> :lprevious<cr>
 
 " Fuzzy search ignored files
 set wildignore+=*.pyc,*/build/lib/*,**/tmp/*,*.so,*.swp,*.zip,**/bower_components/*,**/node_modules/*
