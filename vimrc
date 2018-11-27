@@ -80,3 +80,9 @@ autocmd VimResized * redraw!
 let g:SuperTabDefaultCompletionType = "context"
 "let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
 let g:deoplete#enable_at_startup = 1
+inoremap <expr> <CR> pumvisible() ? "\<C-Y>" : "\<CR>"
+set completeopt-=preview
+
+" neovim in virtualenv
+let g:python_host_prog = '/usr/bin/python'
+let g:python3_host_prog = '/usr/bin/python3'
