@@ -81,7 +81,7 @@ let g:SuperTabDefaultCompletionType = "context"
 let g:deoplete#enable_at_startup = 1
 inoremap <expr> <CR> pumvisible() ? "\<C-Y>" : "\<CR>"
 set completeopt-=preview
-"let g:AutoClosePumvisible = {"ESC": "<ESC>"}
+let g:AutoClosePumvisible = {"ESC": "<ESC>"}
 
 " neovim in virtualenv
 let g:python_host_prog = '/usr/bin/python'
