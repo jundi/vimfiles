@@ -32,9 +32,8 @@ set showcmd
 
 " Key mapping
 let mapleader=","
-map ö :
+map ö <leader>c<space>
 map ä "+
-map - <leader>c<space>
 map C :w<cr>,ll
 cmap <S-Tab> <C-N>
 cmap <Esc><S-Tab> <C-P>
