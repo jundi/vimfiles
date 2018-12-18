@@ -37,7 +37,6 @@ Plugin 'chase/vim-ansible-yaml'
 Plugin 'Shougo/deoplete.nvim'
 Plugin 'zchee/deoplete-jedi'
 Plugin 'heavenshell/vim-pydocstring'
-Plugin 'Townk/vim-autoclose'
 Plugin 'davidhalter/jedi-vim'
 
 call vundle#end()
