@@ -38,5 +38,6 @@ Plugin 'Shougo/deoplete.nvim'
 Plugin 'zchee/deoplete-jedi'
 Plugin 'heavenshell/vim-pydocstring'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'Glench/Vim-Jinja2-Syntax'
 
 call vundle#end()
