@@ -49,6 +49,9 @@ map <m-k> <C-W>k
 map <C-j> :lnext<cr>
 map <C-k> :lprevious<cr>
 
+" custom commands
+command XmlFormat :%! xmllint --format -
+
 " Fuzzy search ignored files
 set wildignore+=*.pyc,*/build/lib/*,**/tmp/*,*.so,*.swp,*.zip,**/bower_components/*,**/node_modules/*
 
