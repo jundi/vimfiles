@@ -39,5 +39,6 @@ Plugin 'zchee/deoplete-jedi'
 Plugin 'heavenshell/vim-pydocstring'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'Glench/Vim-Jinja2-Syntax'
+Plugin 'ciaranm/securemodelines'
 
 call vundle#end()
