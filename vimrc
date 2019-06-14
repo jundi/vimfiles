@@ -6,7 +6,6 @@ source ~/.vim/plugins.vimrc
 " General settings
 filetype plugin indent on
 set smarttab
-"set smartindent
 set mouse=a
 set backspace=2
 set backupdir=~/.vimbackup
@@ -29,6 +28,7 @@ let g:airline_theme='dark'
 set nu
 set ls=2
 set showcmd
+set cursorline
 
 " Key mapping
 let mapleader=","
