@@ -29,6 +29,7 @@ set nu
 set ls=2
 set showcmd
 set cursorline
+set lazyredraw
 
 " Key mapping
 let mapleader=","
