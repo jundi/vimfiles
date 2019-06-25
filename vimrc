@@ -52,6 +52,14 @@ map <C-k> :lprevious<cr>
 
 " custom commands
 command XmlFormat :%! xmllint --format -
+function SwitchPylint()
+    if (g:ale_python_pylint_executable=="pylint")
+        let g:ale_python_pylint_executable="pylint-3"
+    else
+        let g:ale_python_pylint_executable="pylint"
+    endif
+endfunction
+command SwitchPylint :call SwitchPylint()
 
 " Fuzzy search ignored files
 set wildignore+=*.pyc,*/build/lib/*,**/tmp/*,*.so,*.swp,*.zip,**/bower_components/*,**/node_modules/*
