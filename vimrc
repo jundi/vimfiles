@@ -92,6 +92,8 @@ let g:SuperTabDefaultCompletionType = "context"
 "let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
 let g:deoplete#enable_at_startup = 1
 set completeopt-=preview
+" smarter filename completion
+inoremap <c-x><c-f><cmd>set isf-==<cr><c-x><c-f><cmd>set isf+==<cr>
 
 " neovim in virtualenv
 let g:python_host_prog = '/usr/bin/python'
