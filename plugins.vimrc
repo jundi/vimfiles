@@ -39,5 +39,6 @@ Plugin 'heavenshell/vim-pydocstring'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'Glench/Vim-Jinja2-Syntax'
 Plugin 'ciaranm/securemodelines'
+Plugin 'junegunn/gv.vim'
 
 call vundle#end()
