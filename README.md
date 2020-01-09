@@ -2,9 +2,18 @@
 VIM configuration files that work with vim and neovim. Lots of Python-related plugins included, see plugins.vimrc for list of plugins.
 
 ## Requirements
-   * pylint (for python style check)
    * Neovim
    * Neovim python-client
+
+Additionally these linters can be used with ALE:
+
+   * pylint (Python)
+   * flake8 (Python)
+   * lacheck (Latex)
+   * chktex (Latex)
+   * yamllint (YAML)
+   * ansible-lint (ansible)
+   * rstcheck (ReStructuredText)
 
 ### Install requirements on Centos7:
 Install Neovim RPM-repositories: https://github.com/neovim/neovim/wiki/Installing-Neovim
