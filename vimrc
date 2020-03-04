@@ -98,3 +98,6 @@ inoremap <c-x><c-f><cmd>set isf-==<cr><c-x><c-f><cmd>set isf+==<cr>
 " neovim in virtualenv
 let g:python_host_prog = '/usr/bin/python'
 let g:python3_host_prog = '/usr/bin/python3'
+
+" NERDCommenter settings
+let g:NERDDefaultAlign = 'left'
