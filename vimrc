@@ -34,6 +34,7 @@ set lazyredraw
 " Key mapping
 let mapleader=","
 map ö <leader>c<space>
+map <C-ö> v: StripWhitespace<cr>
 map ä "+
 map C :w<cr>,ll
 cmap <S-Tab> <C-N>
@@ -41,8 +42,6 @@ cmap <Esc><S-Tab> <C-P>
 map <C-l> :tabnext<cr>
 map <C-h> :tabprevious<cr>
 map <C-q> :quit!<cr>
-map <C-s> viwS
-map <C-i> v: StripWhitespace<cr>
 map <m-h> <C-W>h
 map <m-l> <C-W>l
 map <m-j> <C-W>j
