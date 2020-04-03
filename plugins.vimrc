@@ -40,5 +40,6 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'Glench/Vim-Jinja2-Syntax'
 Plugin 'ciaranm/securemodelines'
 Plugin 'junegunn/gv.vim'
+Plugin 'msrose/vim-perpetuloc'
 
 call vundle#end()
