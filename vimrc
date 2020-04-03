@@ -47,8 +47,8 @@ map <m-h> <C-W>h
 map <m-l> <C-W>l
 map <m-j> <C-W>j
 map <m-k> <C-W>k
-nnoremap <C-j> :Lnext
-nnoremap <C-k> :Lprevious
+nnoremap x :Lnext<cr>
+nnoremap z :Lprevious<cr>
 
 " custom commands
 command XmlFormat :%! xmllint --format -
