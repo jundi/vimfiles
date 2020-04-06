@@ -49,6 +49,7 @@ map <m-j> <C-W>j
 map <m-k> <C-W>k
 nnoremap x :Lnext<cr>
 nnoremap z :Lprevious<cr>
+map - <Plug>(expand_region_shrink)
 
 " custom commands
 command XmlFormat :%! xmllint --format -
