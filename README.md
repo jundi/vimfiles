@@ -27,13 +27,13 @@ yum install  pylint neovim python34-neovim python2-neovim
 
 1. Clone Vundle to handle plugins:  
 ```
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim  
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.config/nvim/bundle/Vundle.vim
 ```
 
 2. Clone vimfiles:  
 ```
 git clone https://github.com/jundi/vimfiles.git
-cp -r vimfiles/* ~/.vim/
+cp -r vimfiles/* ~/.config/nvim/
 ```
 
 3. Install plugins. Open vim and run command:
@@ -54,7 +54,7 @@ mkdir ~/.vimbackup/
 
 5. Copy vimpager to some directory in $PATH:
 ```
-ln -s -r ~/.vim/bundle/vimpager/vimpager ~/.local/bin/
+ln -s -r ~/.config/nvim/bundle/vimpager/vimpager ~/.local/bin/
 ```
 
 6. Use vimpager as default pager:
@@ -63,9 +63,9 @@ echo "export PAGER=vimpager" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-### Neovim
+### Vim8 support
 
-To use same configuration for neovim:  
+To use same configuration for vim8:
 ```
-ln -s -r ~/.vim ~/.config/nvim
+ln -s -r ~/.config/nvim ~/.vim
 ```

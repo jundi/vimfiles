@@ -1,7 +1,7 @@
 "vim: set ft=vimrc:
 
 " Plugins
-source ~/.vim/plugins.vimrc
+source ~/.config/nvim/plugins.vimrc
 
 " General settings
 filetype plugin indent on
