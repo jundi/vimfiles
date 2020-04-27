@@ -42,4 +42,5 @@ Plugin 'ciaranm/securemodelines'
 Plugin 'junegunn/gv.vim'
 Plugin 'msrose/vim-perpetuloc'
 Plugin 'terryma/vim-expand-region'
+Plugin 'carlitux/deoplete-ternjs'
 call vundle#end()

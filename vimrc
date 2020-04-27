@@ -102,3 +102,6 @@ let g:python3_host_prog = '/usr/bin/python3'
 
 " NERDCommenter settings
 let g:NERDDefaultAlign = 'left'
+
+" Ternjs
+let g:deoplete#sources#ternjs#tern_bin = 'ternjs'
