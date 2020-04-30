@@ -43,5 +43,5 @@ Plugin 'junegunn/gv.vim'
 Plugin 'msrose/vim-perpetuloc'
 Plugin 'terryma/vim-expand-region'
 Plugin 'carlitux/deoplete-ternjs'
-Plugin 'posva/vim-vue'
+Plugin 'leafOfTree/vim-vue-plugin'
 call vundle#end()
