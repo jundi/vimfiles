@@ -9,7 +9,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Load plugins
-Plugin 'preservim/nerdcommenter'
 Plugin 'ervandew/supertab'
 Plugin 'vim-scripts/VOoM'
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -44,4 +43,5 @@ Plugin 'msrose/vim-perpetuloc'
 Plugin 'terryma/vim-expand-region'
 Plugin 'carlitux/deoplete-ternjs'
 Plugin 'leafOfTree/vim-vue-plugin'
+Plugin 'tomtom/tcomment_vim'
 call vundle#end()
