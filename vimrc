@@ -36,7 +36,7 @@ let mapleader=","
 map ö gcc
 map Ö v: StripWhitespace<cr>
 map ä "+
-map Ä viwS
+map Ä "0
 map C :w<cr>,ll
 cmap <S-Tab> <C-N>
 cmap <Esc><S-Tab> <C-P>
