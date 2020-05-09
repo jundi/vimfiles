@@ -102,3 +102,6 @@ let g:python3_host_prog = '/usr/bin/python3'
 
 " Ternjs
 let g:deoplete#sources#ternjs#tern_bin = 'ternjs'
+
+" vim-markdown
+let g:vim_markdown_folding_disabled = 1
