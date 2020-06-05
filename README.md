@@ -9,11 +9,13 @@ Additionally these linters can be used with ALE:
 
    * pylint (Python)
    * flake8 (Python)
+   * flake8-docstrings (Python)
    * lacheck (Latex)
    * chktex (Latex)
    * yamllint (YAML)
    * ansible-lint (ansible)
    * rstcheck (ReStructuredText)
+   * eslint (JavaScript)
 
 ### Install requirements on Centos7:
 Install Neovim RPM-repositories: https://github.com/neovim/neovim/wiki/Installing-Neovim
