@@ -65,32 +65,17 @@ command SwitchPylint :call SwitchPylint()
 " Fuzzy search ignored files
 set wildignore+=*.pyc,*/build/lib/*,**/tmp/*,*.so,*.swp,*.zip,**/bower_components/*,**/node_modules/*
 
-" Syntastic settings
-let g:syntastic_python_checkers = ['pylint']
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
-let g:syntastic_python_pylint_post_args="--max-line-length=79"
-
-" Enable indent quide on startup
+" vim-indent-guides: Enable indent quide on startup
 let g:indent_guides_enable_on_vim_startup = 1
 
-" Use powerline fonts
+" vim-airline: Use powerline fonts
 let g:airline_powerline_fonts = 1
-
-" Autopep
-let g:autopep8_disable_show_diff=1
-
-" javascript-libraries-syntax conf
-let g:used_javascript_libs = 'angularjs'
 
 " https://github.com/neovim/neovim/pull/7985
 autocmd VimResized * redraw!
 
 " completion
 let g:SuperTabDefaultCompletionType = "context"
-"let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
 let g:deoplete#enable_at_startup = 1
 set completeopt-=preview
 " smarter filename completion
