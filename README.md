@@ -4,6 +4,7 @@ VIM configuration files that work with vim and neovim. Lots of Python-related pl
 ## Requirements
    * Neovim
    * Neovim python-client
+   * yapf
 
 Suggested linters to be used with ALE:
 
@@ -27,7 +28,7 @@ Install Neovim RPM-repositories: https://github.com/neovim/neovim/wiki/Installin
 
 Install RPMs
 ```
-yum install  pylint neovim python34-neovim python2-neovim
+yum install yapf neovim python34-neovim python2-neovim
 ```
 
 ## Install
