@@ -43,4 +43,5 @@ Plugin 'carlitux/deoplete-ternjs'
 Plugin 'leafOfTree/vim-vue-plugin'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'jimf/vim-pep8-text-width'
 call vundle#end()
