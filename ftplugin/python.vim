@@ -5,3 +5,6 @@ set softtabstop=4
 set expandtab
 set textwidth=79
 set fo-=t
+
+
+map Ö v: YapfFormat<cr>

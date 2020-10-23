@@ -44,4 +44,5 @@ Plugin 'leafOfTree/vim-vue-plugin'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'jimf/vim-pep8-text-width'
+Plugin 'pignacio/vim-yapf-format'
 call vundle#end()
