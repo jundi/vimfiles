@@ -18,6 +18,7 @@ set hlsearch
 set colorcolumn=+1
 set list
 set nojoinspaces
+set formatoptions=tcqjro
 
 " Appearance
 syntax on
