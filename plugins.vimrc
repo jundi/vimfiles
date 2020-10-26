@@ -45,4 +45,5 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'jimf/vim-pep8-text-width'
 Plugin 'pignacio/vim-yapf-format'
+Plugin 'gu-fan/riv.vim'
 call vundle#end()
