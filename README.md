@@ -33,26 +33,19 @@ yum install yapf neovim python34-neovim python2-neovim
 
 ## Install
 
-1. Clone Vundle to handle plugins:
+1. Clone vimfiles:
 ```
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.config/nvim/bundle/Vundle.vim
+git clone https://github.com/jundi/vimfiles.git ~/.config/nvim/
 ```
 
-2. Clone vimfiles:
+2. Install plugin manager:
 ```
-git clone https://github.com/jundi/vimfiles.git
-cp -r vimfiles/* ~/.config/nvim/
+curl -Lo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 3. Install plugins. Open vim and run command:
 ```
-:PluginInstall
-
-```
-or run from commandline:
-```
-vim +PluginInstall +qall
-
+vim +PlugInstall +qall
 ```
 
 4. Create directory for vim-backups:
@@ -62,7 +55,7 @@ mkdir ~/.vimbackup/
 
 5. Copy vimpager to some directory in $PATH:
 ```
-ln -s -r ~/.config/nvim/bundle/vimpager/vimpager ~/.local/bin/
+ln -s -r ~/.config/nvim/plugged/vimpager/vimpager ~/.opt/bin/
 ```
 
 6. Use vimpager as default pager:
