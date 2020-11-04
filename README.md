@@ -45,7 +45,7 @@ curl -Lo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserco
 
 3. Install plugins. Open vim and run command:
 ```
-vim +PlugInstall +qall
+nvim +PlugInstall +qall
 ```
 
 4. Create directory for vim-backups:
