@@ -55,6 +55,7 @@ map - <Plug>(expand_region_shrink)
 
 " custom commands
 command XmlFormat :%! xmllint --format -
+command JsonFormat :%! jq .
 function SwitchPylint()
     if (g:ale_python_pylint_executable=="pylint")
         let g:ale_python_pylint_executable="pylint-3"
