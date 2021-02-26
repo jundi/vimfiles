@@ -52,6 +52,7 @@ map <m-k> <C-W>k
 nnoremap x :Lnext<cr>
 nnoremap z :Lprevious<cr>
 map - <Plug>(expand_region_shrink)
+let g:SuperTabMappingTabLiteral = "<m-tab>"
 
 " custom commands
 command XmlFormat :%! xmllint --format -
