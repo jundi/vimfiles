@@ -50,7 +50,7 @@ map <m-l> <C-W>l
 map <m-j> <C-W>j
 map <m-k> <C-W>k
 nnoremap x :Lnext<cr>
-nnoremap z :Lprevious<cr>
+nnoremap X :Lprevious<cr>
 map - <Plug>(expand_region_shrink)
 let g:SuperTabMappingTabLiteral = "<m-tab>"
 
@@ -95,3 +95,6 @@ let g:deoplete#sources#ternjs#filetypes = ['vue']
 
 " vim-markdown
 let g:vim_markdown_folding_disabled = 1
+
+" Riv
+let g:riv_disable_folding = 0
