@@ -97,4 +97,4 @@ let g:deoplete#sources#ternjs#filetypes = ['vue']
 let g:vim_markdown_folding_disabled = 1
 
 " Riv
-let g:riv_disable_folding = 0
+let g:riv_disable_folding = 1
