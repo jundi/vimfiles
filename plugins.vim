@@ -21,7 +21,7 @@ Plug 'kana/vim-textobj-line'
 Plug 'kana/vim-textobj-user'
 Plug 'dense-analysis/ale'
 Plug 'pearofducks/ansible-vim'
-Plug 'Shougo/deoplete.nvim'
+Plug 'Shougo/deoplete.nvim', {'tag': '6.0'}
 Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'heavenshell/vim-pydocstring'
 Plug 'davidhalter/jedi-vim'
