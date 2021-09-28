@@ -19,6 +19,7 @@ set colorcolumn=+1
 set list
 set nojoinspaces
 set formatoptions=tcqjro
+set ignorecase
 
 " Appearance
 syntax on
