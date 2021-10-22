@@ -20,6 +20,7 @@ set list
 set nojoinspaces
 set formatoptions=tcqjro
 set ignorecase
+set smartcase
 
 " Appearance
 syntax on
