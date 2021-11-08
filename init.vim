@@ -21,6 +21,8 @@ set nojoinspaces
 set formatoptions=tcqjro
 set ignorecase
 set smartcase
+set splitbelow
+set splitright
 
 " Appearance
 syntax on
