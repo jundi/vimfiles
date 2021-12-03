@@ -103,4 +103,4 @@ call deoplete#custom#option('num_processes', 4)
 let g:vim_markdown_folding_disabled = 1
 
 " Riv
-let g:riv_disable_folding = 1
+let g:riv_fold_auto_update = 0
