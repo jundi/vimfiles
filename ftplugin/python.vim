@@ -8,3 +8,6 @@ set fo-=t
 
 
 map Ö v: YapfFormat<cr>
+
+" enable pydocstyle linter, which is disabled by default
+let b:ale_linters = ['pylint', 'flake8', 'pydocstyle']

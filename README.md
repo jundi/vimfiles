@@ -10,7 +10,7 @@ Suggested linters to be used with ALE:
 
    * pylint (Python)
    * flake8 (Python)
-   * flake8-docstrings (Python)
+   * pydocstyle (Python)
    * lacheck (Latex)
    * chktex (Latex)
    * yamllint (YAML)
